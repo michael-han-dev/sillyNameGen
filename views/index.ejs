@@ -1,4 +1,4 @@
-<%- include("partials/solution-header.ejs") %>
+<%- include("partials/header.ejs") %>
 
   <% if (locals.adjective && locals.noun) { %>
     <h1>
@@ -6,7 +6,7 @@
         <%= noun %>
     </h1>
     <% } else { %>
-      <h1>Welcome to the Band Generator 🤟</h1>
+      <h1>Welcome to the name Generator 🤟</h1>
       <% } %>
 
 
@@ -16,4 +16,4 @@
         </form>
 
 
-        <%- include("partials/solution-footer.ejs") %>
+        <%- include("partials/footer.ejs") %>
